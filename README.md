@@ -5,10 +5,14 @@
 [![Build](https://github.com/supamanluva/goldfinger/actions/workflows/build.yml/badge.svg)](https://github.com/supamanluva/goldfinger/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Goldfinger is a single-device reaction game inspired by the classic 2009 mobile
-hit. Put the phone on the table, everyone places a finger on the screen, and the
-tension builds with pounding music… until the alarm goes off. Lift your finger
-the slowest — or jump the gun too early — and you're the **Goldfinger**.
+Goldfinger is a single-device reaction party game inspired by the classic 2009
+mobile hit. Put the phone on the table and everyone places a finger on the
+screen. Tense music builds… then the alarm blares and everyone snatches their
+finger away as fast as they can.
+
+**The slowest to react is the _Goldfinger_ — and the Goldfinger buys the next
+round.** 🍺 Lift too early, before the alarm, and you're the Goldfinger too.
+Quick fingers are safe.
 
 ## Screenshots
 
@@ -21,9 +25,9 @@ the slowest — or jump the gun too early — and you're the **Goldfinger**.
 1. Lay the phone flat. Each player places **one finger** on the screen (2+ players).
 2. After a short moment the round arms and tense music plays. At a **random time
    (3–20 s)** an alarm blares.
-3. **False start:** lift your finger *before* the alarm and you lose instantly.
+3. **False start:** lift your finger *before* the alarm and you're the Goldfinger instantly.
 4. When the alarm sounds, everyone lifts as fast as they can.
-5. The **last finger** on the screen is the Goldfinger — you lose.
+5. The **last finger** on the screen is the **Goldfinger** — and the Goldfinger buys the next round.
 
 Tap anywhere to play again.
 

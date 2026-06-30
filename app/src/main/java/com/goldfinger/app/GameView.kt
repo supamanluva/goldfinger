@@ -393,21 +393,20 @@ class GameView(context: Context) : View(context) {
         }
 
         wordmark.color = gold
-        if (loserReason == Reason.FALSE_START) {
-            wordmark.textSize = dp(48f)
-            canvas.drawText("TOO SOON!", cx, height * 0.30f, wordmark)
-            text.color = Color.WHITE
-            text.textSize = dp(22f)
-            canvas.drawText("You lifted before the alarm", cx, height * 0.30f + dp(40f), text)
-        } else {
-            wordmark.textSize = dp(48f)
-            canvas.drawText("BUSTED!", cx, height * 0.30f, wordmark)
-            text.color = Color.WHITE
-            text.textSize = dp(22f)
-            loser?.let {
-                canvas.drawText("Player ${it.number} was last — you lose", cx, height * 0.30f + dp(40f), text)
-            }
+        wordmark.textSize = dp(48f)
+        val headline = if (loserReason == Reason.FALSE_START) "TOO SOON!" else "BUSTED!"
+        canvas.drawText(headline, cx, height * 0.30f, wordmark)
+
+        text.color = Color.WHITE
+        text.textSize = dp(22f)
+        loser?.let {
+            canvas.drawText("Player ${it.number} is the Goldfinger", cx, height * 0.30f + dp(42f), text)
         }
+        subText.color = gold
+        subText.textSize = dp(18f)
+        canvas.drawText("Next round is on you!", cx, height * 0.30f + dp(74f), subText)
+        subText.color = 0xFF8A93A6.toInt()
+
         subText.textSize = dp(16f)
         canvas.drawText("TAP ANYWHERE TO PLAY AGAIN", cx, height * 0.9f, subText)
     }
