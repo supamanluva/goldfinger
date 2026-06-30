@@ -1,0 +1,24 @@
+# Build output
+/build/
+/app/build/
+*.apk
+*.aab
+
+# Local toolchain downloaded by build.ps1 (JDK, Android SDK, Gradle)
+/.tools/
+
+# Local Windows bootstrap/helper scripts (machine-specific, not part of the project)
+/.tools-scripts/
+/build.ps1
+
+# Gradle
+.gradle/
+
+# Android / IDE
+*.iml
+/local.properties
+/.idea/
+/captures/
+.externalNativeBuild/
+.cxx/
+.DS_Store
