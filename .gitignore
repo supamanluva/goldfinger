@@ -4,6 +4,12 @@
 *.apk
 *.aab
 
+# Release signing secrets — NEVER commit these
+/keystore.properties
+/upload-keystore.jks
+*.jks
+*.keystore
+
 # Local toolchain downloaded by build.ps1 (JDK, Android SDK, Gradle)
 /.tools/
 
